@@ -1,0 +1,169 @@
+{
+  "group": ["row_label2"],
+  "label": ["row_label1"],
+  "param": ["param"],
+  "value": ["value"],
+  "column": ["col1"],
+  "body_plan": [
+    {
+      "group_val": [".default"],
+      "label_val": [".default"],
+      "param_val": ["n", "pct"],
+      "frmt_combine": {
+        "expression": ["{n} {pct}"],
+        "frmt_ls": {
+          "n": {
+            "frmt": {
+              "expression": ["xx"],
+              "missing": {},
+              "scientific": {},
+              "transform": {}
+            }
+          },
+          "pct": {
+            "frmt_when": {
+              "frmt_ls": {
+                "==100": [""],
+                "==0": [""],
+                "TRUE": {
+                  "frmt": {
+                    "expression": ["(x.x %)"],
+                    "missing": {},
+                    "scientific": {},
+                    "transform": {}
+                  }
+                }
+              },
+              "missing": {}
+            }
+          }
+        },
+        "missing": {}
+      }
+    },
+    {
+      "group_val": [".default"],
+      "label_val": ["n"],
+      "param_val": [".default"],
+      "frmt": {
+        "expression": ["xx"],
+        "missing": {},
+        "scientific": {},
+        "transform": {}
+      }
+    },
+    {
+      "group_val": [".default"],
+      "label_val": ["Median"],
+      "param_val": [".default"],
+      "frmt": {
+        "expression": ["xx.x"],
+        "missing": {},
+        "scientific": {},
+        "transform": {}
+      }
+    },
+    {
+      "group_val": [".default"],
+      "label_val": ["Min, Max"],
+      "param_val": ["min", "max"],
+      "frmt_combine": {
+        "expression": ["{min}, {max}"],
+        "frmt_ls": {
+          "min": {
+            "frmt": {
+              "expression": ["xx"],
+              "missing": {},
+              "scientific": {},
+              "transform": {}
+            }
+          },
+          "max": {
+            "frmt": {
+              "expression": ["xx"],
+              "missing": {},
+              "scientific": {},
+              "transform": {}
+            }
+          }
+        },
+        "missing": {}
+      }
+    },
+    {
+      "group_val": [".default"],
+      "label_val": ["Mean (SD)"],
+      "param_val": ["mean", "sd"],
+      "frmt_combine": {
+        "expression": ["{mean} ({sd})"],
+        "frmt_ls": {
+          "mean": {
+            "frmt": {
+              "expression": ["xx.x"],
+              "missing": {},
+              "scientific": {},
+              "transform": {}
+            }
+          },
+          "sd": {
+            "frmt": {
+              "expression": ["xx.xx"],
+              "missing": {},
+              "scientific": {},
+              "transform": {}
+            }
+          }
+        },
+        "missing": {}
+      }
+    },
+    {
+      "group_val": [".default"],
+      "label_val": ["Q1, Q3"],
+      "param_val": ["q1", "q3"],
+      "frmt_combine": {
+        "expression": ["{q1}, {q3}"],
+        "frmt_ls": {
+          "q1": {
+            "frmt": {
+              "expression": ["xx.x"],
+              "missing": {},
+              "scientific": {},
+              "transform": {}
+            }
+          },
+          "q3": {
+            "frmt": {
+              "expression": ["xx.x"],
+              "missing": {},
+              "scientific": {},
+              "transform": {}
+            }
+          }
+        },
+        "missing": {}
+      }
+    },
+    {
+      "group_val": [".default"],
+      "label_val": ["Missing"],
+      "param_val": [".default"],
+      "frmt": {
+        "expression": ["xx"],
+        "missing": {},
+        "scientific": {},
+        "transform": {}
+      }
+    }
+  ],
+  "col_plan": {
+    "col_plan": {
+      "dots": [
+        ["everything()"],
+        ["Total"],
+        ["-row_label3"]
+      ],
+      ".drop": [false]
+    }
+  }
+}

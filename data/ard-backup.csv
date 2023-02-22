@@ -1,0 +1,149 @@
+row_label2,row_label1,col1,param,value,row_label3
+Age (years),n,Placebo,n,86,NA
+Age (years),Mean (SD),Placebo,mean,75.20930232558139,NA
+Age (years),Mean (SD),Placebo,sd,8.59016712714193,NA
+Age (years),Median,Placebo,median,76,NA
+Age (years),"Q1, Q3",Placebo,q1,69.25,NA
+Age (years),"Q1, Q3",Placebo,q3,81.75,NA
+Age (years),"Min, Max",Placebo,min,52,NA
+Age (years),"Min, Max",Placebo,max,89,NA
+Age (years),Missing,Placebo,missing,0,NA
+Age (years),n,Xanomeline High Dose,n,84,NA
+Age (years),Mean (SD),Xanomeline High Dose,mean,74.38095238095238,NA
+Age (years),Mean (SD),Xanomeline High Dose,sd,7.886093848698238,NA
+Age (years),Median,Xanomeline High Dose,median,76,NA
+Age (years),"Q1, Q3",Xanomeline High Dose,q1,70.75,NA
+Age (years),"Q1, Q3",Xanomeline High Dose,q3,80,NA
+Age (years),"Min, Max",Xanomeline High Dose,min,56,NA
+Age (years),"Min, Max",Xanomeline High Dose,max,88,NA
+Age (years),Missing,Xanomeline High Dose,missing,0,NA
+Age (years),n,Xanomeline Low Dose,n,84,NA
+Age (years),Mean (SD),Xanomeline Low Dose,mean,75.66666666666667,NA
+Age (years),Mean (SD),Xanomeline Low Dose,sd,8.28605059954093,NA
+Age (years),Median,Xanomeline Low Dose,median,77.5,NA
+Age (years),"Q1, Q3",Xanomeline Low Dose,q1,71,NA
+Age (years),"Q1, Q3",Xanomeline Low Dose,q3,82,NA
+Age (years),"Min, Max",Xanomeline Low Dose,min,51,NA
+Age (years),"Min, Max",Xanomeline Low Dose,max,88,NA
+Age (years),Missing,Xanomeline Low Dose,missing,0,NA
+Age (years),n,Total,n,254,NA
+Age (years),Mean (SD),Total,mean,75.08661417322834,NA
+Age (years),Mean (SD),Total,sd,8.246233896216058,NA
+Age (years),Median,Total,median,77,NA
+Age (years),"Q1, Q3",Total,q1,70,NA
+Age (years),"Q1, Q3",Total,q3,81,NA
+Age (years),"Min, Max",Total,min,51,NA
+Age (years),"Min, Max",Total,max,89,NA
+Age (years),Missing,Total,missing,0,NA
+Age (years),<65,Placebo,n,14,n (%)
+Age (years),<65,Placebo,pct,0.16279069767441862,n (%)
+Age (years),>80,Placebo,n,30,n (%)
+Age (years),>80,Placebo,pct,0.3488372093023256,n (%)
+Age (years),65-80,Placebo,n,42,n (%)
+Age (years),65-80,Placebo,pct,0.4883720930232558,n (%)
+Age (years),<65,Total,n,33,n (%)
+Age (years),<65,Total,pct,0.12992125984251968,n (%)
+Age (years),>80,Total,n,77,n (%)
+Age (years),>80,Total,pct,0.3031496062992126,n (%)
+Age (years),65-80,Total,n,144,n (%)
+Age (years),65-80,Total,pct,0.5669291338582677,n (%)
+Age (years),<65,Xanomeline High Dose,n,11,n (%)
+Age (years),<65,Xanomeline High Dose,pct,0.13095238095238096,n (%)
+Age (years),>80,Xanomeline High Dose,n,18,n (%)
+Age (years),>80,Xanomeline High Dose,pct,0.21428571428571427,n (%)
+Age (years),65-80,Xanomeline High Dose,n,55,n (%)
+Age (years),65-80,Xanomeline High Dose,pct,0.6547619047619048,n (%)
+Age (years),<65,Xanomeline Low Dose,n,8,n (%)
+Age (years),<65,Xanomeline Low Dose,pct,0.09523809523809523,n (%)
+Age (years),>80,Xanomeline Low Dose,n,29,n (%)
+Age (years),>80,Xanomeline Low Dose,pct,0.34523809523809523,n (%)
+Age (years),65-80,Xanomeline Low Dose,n,47,n (%)
+Age (years),65-80,Xanomeline Low Dose,pct,0.5595238095238095,n (%)
+Sex,F,Placebo,n,53,n (%)
+Sex,F,Placebo,pct,0.6162790697674418,n (%)
+Sex,M,Placebo,n,33,n (%)
+Sex,M,Placebo,pct,0.38372093023255816,n (%)
+Sex,F,Total,n,143,n (%)
+Sex,F,Total,pct,0.562992125984252,n (%)
+Sex,M,Total,n,111,n (%)
+Sex,M,Total,pct,0.43700787401574803,n (%)
+Sex,F,Xanomeline High Dose,n,40,n (%)
+Sex,F,Xanomeline High Dose,pct,0.47619047619047616,n (%)
+Sex,M,Xanomeline High Dose,n,44,n (%)
+Sex,M,Xanomeline High Dose,pct,0.5238095238095238,n (%)
+Sex,F,Xanomeline Low Dose,n,50,n (%)
+Sex,F,Xanomeline Low Dose,pct,0.5952380952380952,n (%)
+Sex,M,Xanomeline Low Dose,n,34,n (%)
+Sex,M,Xanomeline Low Dose,pct,0.40476190476190477,n (%)
+Height (cm),n,Placebo,n,86,NA
+Height (cm),Mean (SD),Placebo,mean,162.5732558139535,NA
+Height (cm),Mean (SD),Placebo,sd,11.52236111851881,NA
+Height (cm),Median,Placebo,median,162.6,NA
+Height (cm),"Q1, Q3",Placebo,q1,154,NA
+Height (cm),"Q1, Q3",Placebo,q3,171.175,NA
+Height (cm),"Min, Max",Placebo,min,137.2,NA
+Height (cm),"Min, Max",Placebo,max,185.4,NA
+Height (cm),Missing,Placebo,missing,0,NA
+Height (cm),n,Xanomeline High Dose,n,84,NA
+Height (cm),Mean (SD),Xanomeline High Dose,mean,165.8202380952381,NA
+Height (cm),Mean (SD),Xanomeline High Dose,sd,10.131351552481883,NA
+Height (cm),Median,Xanomeline High Dose,median,165.1,NA
+Height (cm),"Q1, Q3",Xanomeline High Dose,q1,157.5,NA
+Height (cm),"Q1, Q3",Xanomeline High Dose,q3,172.77499999999998,NA
+Height (cm),"Min, Max",Xanomeline High Dose,min,146.1,NA
+Height (cm),"Min, Max",Xanomeline High Dose,max,190.5,NA
+Height (cm),Missing,Xanomeline High Dose,missing,0,NA
+Height (cm),n,Xanomeline Low Dose,n,84,NA
+Height (cm),Mean (SD),Xanomeline Low Dose,mean,163.43333333333334,NA
+Height (cm),Mean (SD),Xanomeline Low Dose,sd,10.41924000342616,NA
+Height (cm),Median,Xanomeline Low Dose,median,162.6,NA
+Height (cm),"Q1, Q3",Xanomeline Low Dose,q1,157.5,NA
+Height (cm),"Q1, Q3",Xanomeline Low Dose,q3,170.2,NA
+Height (cm),"Min, Max",Xanomeline Low Dose,min,135.9,NA
+Height (cm),"Min, Max",Xanomeline Low Dose,max,195.6,NA
+Height (cm),Missing,Xanomeline Low Dose,missing,0,NA
+Height (cm),n,Total,n,254,NA
+Height (cm),Mean (SD),Total,mean,163.93149606299212,NA
+Height (cm),Mean (SD),Total,sd,10.76044726862843,NA
+Height (cm),Median,Total,median,162.85,NA
+Height (cm),"Q1, Q3",Total,q1,156.2,NA
+Height (cm),"Q1, Q3",Total,q3,171.5,NA
+Height (cm),"Min, Max",Total,min,135.9,NA
+Height (cm),"Min, Max",Total,max,195.6,NA
+Height (cm),Missing,Total,missing,0,NA
+Weight (kg),n,Placebo,n,86,NA
+Weight (kg),Mean (SD),Placebo,mean,62.759302325581395,NA
+Weight (kg),Mean (SD),Placebo,sd,12.77154353292531,NA
+Weight (kg),Median,Placebo,median,60.55,NA
+Weight (kg),"Q1, Q3",Placebo,q1,53.625,NA
+Weight (kg),"Q1, Q3",Placebo,q3,74.17500000000001,NA
+Weight (kg),"Min, Max",Placebo,min,34,NA
+Weight (kg),"Min, Max",Placebo,max,86.2,NA
+Weight (kg),Missing,Placebo,missing,0,NA
+Weight (kg),n,Xanomeline High Dose,n,84,NA
+Weight (kg),Mean (SD),Xanomeline High Dose,mean,70.0047619047619,NA
+Weight (kg),Mean (SD),Xanomeline High Dose,sd,14.653433371779524,NA
+Weight (kg),Median,Xanomeline High Dose,median,69.2,NA
+Weight (kg),"Q1, Q3",Xanomeline High Dose,q1,56.97500000000001,NA
+Weight (kg),"Q1, Q3",Xanomeline High Dose,q3,80.3,NA
+Weight (kg),"Min, Max",Xanomeline High Dose,min,41.7,NA
+Weight (kg),"Min, Max",Xanomeline High Dose,max,108,NA
+Weight (kg),Missing,Xanomeline High Dose,missing,0,NA
+Weight (kg),n,Xanomeline Low Dose,n,84,NA
+Weight (kg),Mean (SD),Xanomeline Low Dose,mean,67.27951807228915,NA
+Weight (kg),Mean (SD),Xanomeline Low Dose,sd,14.123598648690905,NA
+Weight (kg),Median,Xanomeline Low Dose,median,64.9,NA
+Weight (kg),"Q1, Q3",Xanomeline Low Dose,q1,56.05,NA
+Weight (kg),"Q1, Q3",Xanomeline Low Dose,q3,77.44999999999999,NA
+Weight (kg),"Min, Max",Xanomeline Low Dose,min,45.4,NA
+Weight (kg),"Min, Max",Xanomeline Low Dose,max,106.1,NA
+Weight (kg),Missing,Xanomeline Low Dose,missing,1,NA
+Weight (kg),n,Total,n,254,NA
+Weight (kg),Mean (SD),Total,mean,66.64782608695653,NA
+Weight (kg),Mean (SD),Total,sd,14.131425537279174,NA
+Weight (kg),Median,Total,median,66.7,NA
+Weight (kg),"Q1, Q3",Total,q1,55.3,NA
+Weight (kg),"Q1, Q3",Total,q3,77.1,NA
+Weight (kg),"Min, Max",Total,min,34,NA
+Weight (kg),"Min, Max",Total,max,108,NA
+Weight (kg),Missing,Total,missing,1,NA
