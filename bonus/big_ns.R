@@ -7,6 +7,7 @@
 library(tidyverse)
 library(haven)
 library(tardis)
+library(tfrmt)
 
 adsl <- read_xpt(url("https://github.com/phuse-org/TestDataFactory/raw/main/Updated/TDF_ADaM/adsl.xpt"))
 
@@ -48,9 +49,17 @@ full_data <- tbl_setup %>%
   bind_rows(data)
 
 
-# Write out ---------------------------------------------------------------
+# Write Out ---------------------------------------------------------------
 
 write_csv(full_data, "bonus/data/demog-big_ns.csv")
+
+
+# Create Table ------------------------------------------------------------
+
+# Now you can use the app for this or just add to the tfrmt with code
+json_to_tfrmt(path = "answers/demog-tfrmt.json") %>%
+  tfrmt(big_n = big_n_structure(param_val = "bigN")) %>%
+  print_to_gt(.data = full_data)
 
 
 
