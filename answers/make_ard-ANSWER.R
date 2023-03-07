@@ -2,10 +2,11 @@
 # Here we will start the ARD for the demography table #
 #######################################################
 library(tidyverse)
+library(haven)
 library(tardis)
 
 # First we are going to read in the data
-adsl <- haven::read_xpt(url("https://github.com/phuse-org/TestDataFactory/raw/main/Updated/TDF_ADaM/adsl.xpt"))
+adsl <- read_xpt(url("https://github.com/phuse-org/TestDataFactory/raw/main/Updated/TDF_ADaM/adsl.xpt"))
 
 # Lets set up our ard. First we are going to define the data source and
 # important variables

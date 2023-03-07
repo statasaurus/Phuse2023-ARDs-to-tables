@@ -3,9 +3,10 @@
 #######################################################
 library(tidyverse)
 library(tardis)
+library(haven)
 
 # First we are going to read in the data
-adsl <- haven::read_xpt(url("https://github.com/phuse-org/TestDataFactory/raw/main/Updated/TDF_ADaM/adsl.xpt"))
+adsl <- read_xpt(url("https://github.com/phuse-org/TestDataFactory/raw/main/Updated/TDF_ADaM/adsl.xpt"))
 
 # Lets set up our ard. First we are going to define the data source and
 # important variables
@@ -48,7 +49,6 @@ demog_ard %>%
 
 # In this exercise we need you to add descriptive statistics for `WEIGHTBL` with
 # the label 'Weight (kg)'
-
 
 
 

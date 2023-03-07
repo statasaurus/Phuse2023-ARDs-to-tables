@@ -3,10 +3,12 @@
 
 
 install.packages("tidyverse")
+install.packages("haven")
 
 # ARD generating package
 devtools::install_github("https://github.com/atorus-research/tardis")
 # Table rendering packages
 devtools::install_github("https://github.com/GSK-Biostatistics/tfrmt")
 devtools::install_github("https://github.com/GSK-Biostatistics/tfrmtbuilder")
+
 

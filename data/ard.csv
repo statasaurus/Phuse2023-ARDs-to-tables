@@ -111,3 +111,39 @@ Height (cm),"Q1, Q3",Total,q3,171.5,NA
 Height (cm),"Min, Max",Total,min,135.9,NA
 Height (cm),"Min, Max",Total,max,195.6,NA
 Height (cm),Missing,Total,missing,0,NA
+Weight (kg),n,Placebo,n,86,NA
+Weight (kg),Mean (SD),Placebo,mean,62.759302325581395,NA
+Weight (kg),Mean (SD),Placebo,sd,12.77154353292531,NA
+Weight (kg),Median,Placebo,median,60.55,NA
+Weight (kg),"Q1, Q3",Placebo,q1,53.625,NA
+Weight (kg),"Q1, Q3",Placebo,q3,74.17500000000001,NA
+Weight (kg),"Min, Max",Placebo,min,34,NA
+Weight (kg),"Min, Max",Placebo,max,86.2,NA
+Weight (kg),Missing,Placebo,missing,0,NA
+Weight (kg),n,Xanomeline High Dose,n,84,NA
+Weight (kg),Mean (SD),Xanomeline High Dose,mean,70.0047619047619,NA
+Weight (kg),Mean (SD),Xanomeline High Dose,sd,14.653433371779524,NA
+Weight (kg),Median,Xanomeline High Dose,median,69.2,NA
+Weight (kg),"Q1, Q3",Xanomeline High Dose,q1,56.97500000000001,NA
+Weight (kg),"Q1, Q3",Xanomeline High Dose,q3,80.3,NA
+Weight (kg),"Min, Max",Xanomeline High Dose,min,41.7,NA
+Weight (kg),"Min, Max",Xanomeline High Dose,max,108,NA
+Weight (kg),Missing,Xanomeline High Dose,missing,0,NA
+Weight (kg),n,Xanomeline Low Dose,n,84,NA
+Weight (kg),Mean (SD),Xanomeline Low Dose,mean,67.27951807228915,NA
+Weight (kg),Mean (SD),Xanomeline Low Dose,sd,14.123598648690905,NA
+Weight (kg),Median,Xanomeline Low Dose,median,64.9,NA
+Weight (kg),"Q1, Q3",Xanomeline Low Dose,q1,56.05,NA
+Weight (kg),"Q1, Q3",Xanomeline Low Dose,q3,77.44999999999999,NA
+Weight (kg),"Min, Max",Xanomeline Low Dose,min,45.4,NA
+Weight (kg),"Min, Max",Xanomeline Low Dose,max,106.1,NA
+Weight (kg),Missing,Xanomeline Low Dose,missing,1,NA
+Weight (kg),n,Total,n,254,NA
+Weight (kg),Mean (SD),Total,mean,66.64782608695653,NA
+Weight (kg),Mean (SD),Total,sd,14.131425537279174,NA
+Weight (kg),Median,Total,median,66.7,NA
+Weight (kg),"Q1, Q3",Total,q1,55.3,NA
+Weight (kg),"Q1, Q3",Total,q3,77.1,NA
+Weight (kg),"Min, Max",Total,min,34,NA
+Weight (kg),"Min, Max",Total,max,108,NA
+Weight (kg),Missing,Total,missing,1,NA
