@@ -161,8 +161,8 @@
       "dots": [
         ["row_label2"],
         ["row_label1"],
-        ["`Xanomeline Low Dose`"],
-        ["`Xanomeline High Dose`"],
+        ["Xanomeline Low Dose"],
+        ["Xanomeline High Dose"],
         ["Placebo"],
         ["Total"]
       ],
