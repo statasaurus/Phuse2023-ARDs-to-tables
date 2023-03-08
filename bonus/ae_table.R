@@ -34,8 +34,34 @@ ae_ard <- tbl_setup %>% add_layer(
       set_summaries(vars(distinct_n),
                     vars(distinct_pct))
   )  %>%
-  build()
+  build() %>%
+  mutate(row_label2 = if_else(row_label1 == "Any Body System",
+                              row_label1,
+                              str_to_title(row_label2)))
 
+
+# Make tfrmt --------------------------------------------------------------
+
+tfrmt_n_pct(
+  n = "distinct_n",
+  pct = "distinct_pct",
+  frmt_when("==1" ~ frmt(""),
+            ">.99" ~ frmt("(>99%)"), "==0" ~ "",
+            "<0.01" ~ frmt("(<1%)"),
+            "TRUE" ~ frmt("(xx.x%)", transform = ~.*100))
+) %>%
+  tfrmt(
+    group = row_label2,
+    column = col1,
+    param = param,
+    value = value,
+    label = row_label1,
+    col_plan = col_plan(
+      everything(),
+      Total
+    )
+  ) %>%
+  print_to_gt(.data = ae_ard)
 
 
 
